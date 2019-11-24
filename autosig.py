@@ -44,7 +44,7 @@ def getUserAnswers(rulelist):
 
                 if (truth == True): #silence, i just like breaking things up
                     donerule = ans
-                    return
+                    continue
 
                 print("I will ask once again...")
         else:
